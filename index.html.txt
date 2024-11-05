@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Tempo Juntos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <h1>EU E VOCÊ PARA SEMPRE</h1>
+        <div class="carousel">
+            <img src="foto1.jpg" class="carousel-image active" alt="Foto 1">
+            <img src="foto2.jpg" class="carousel-image" alt="Foto 2">
+            <img src="foto3.jpg" class="carousel-image" alt="Foto 3">
+            <img src="foto4.jpg" class="carousel-image" alt="Foto 4">
+            <img src="foto5.jpg" class="carousel-image" alt="Foto 5">
+            <img src="foto6.jpg" class="carousel-image" alt="Foto 6">
+            <img src="foto7.jpg" class="carousel-image" alt="Foto 7">
+            <img src="foto8.jpg" class="carousel-image" alt="Foto 8">
+            <img src="foto9.jpg" class="carousel-image" alt="Foto 9">
+            <img src="foto10.jpg" class="carousel-image" alt="Foto 10">
+        </div>
+        <p class="message">Você é meu tudo. Amo você!</p>
+        <div class="timer">
+            <p>Estamos juntos há:</p>
+            <p id="timeTogether"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
